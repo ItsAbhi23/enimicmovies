@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.upperd{
+     /* font-size: 15px; */
+     width: 100%;
+     text-align: center;
+     margin-top: 0px;
+     height: 55px;
+     align-items: center;
+     background-color: rgb(0 0 0 / 37%);
+     border-radius: 3px;
+     cursor: pointer;
+     text-align: center;
+    }
+    .upperl{
+        /* font-size: 15px; */
+        width: 100%;
+        text-align: center;
+        margin-top: 0px;
+        height: 55px;
+        align-items: center;
+        background-color: rgba(182, 8, 8, 0.37);
+        border-radius: 3px;
+        cursor: pointer;
+        text-align: center;
+       }
+.nav{
+    height: 55px;
+    margin-top: 0px;
+   
+    align-items: center;
+   
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+   height: 55px;
+}
+.nav ul li{
+   height: 55px;
+
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+}
+.nav ul li a{
+    padding: 0px;
+    border: none;
+    margin: 10px;
+}
+.switch {
+    margin-top: 18px;
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    border-radius: 4px;
+    margin-right: 50px;
+    height: 15px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    border-radius: 4px;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 4px;
+
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    border-radius: 4px;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #0b0d0f;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(18px);
+  }
+  
+  #dropdown{
+    text-align: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+
+  .anchor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #dropdown {
+    font-size: 16px;
+    border: none;
+    color: #333;
+    outline: none;
+    margin-left: 10px;
+    background-color: transparent !important;
+    
+  }
+
+  #dropdown option{
+    text-align: left;
+
+  }
+  
+  
+  

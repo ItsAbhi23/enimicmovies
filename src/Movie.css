@@ -1,0 +1,48 @@
+.movie-page{
+    width: 100%;
+}
+.movie-page .card{
+    width: 25rem !important;
+    min-height: 30rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movie-page .card .card-info img{
+    flex: 1;
+    max-width: 100%;
+    object-fit: fill;
+
+
+}
+.movies_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
+
+.pagination{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+padding: 30px 10px;
+}
+.pagination button{
+    background-color: #333;
+    color: white;
+    border-radius: .75rem;
+    padding: 10px 15px;
+    cursor: pointer;
+
+}
+.pagination button:disabled{
+    background-color: gray;
+    color: #000;
+    cursor: not-allowed;
+}
